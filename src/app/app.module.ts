@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
-  declarations: [
+  declarations: [ // - компоненты приложения
     AppComponent
   ],
   imports: [
@@ -16,5 +16,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   providers: [],
   bootstrap: [AppComponent]
+  // - исп для запуска приложения
 })
 export class AppModule { }
